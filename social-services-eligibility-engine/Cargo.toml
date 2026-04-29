@@ -1,0 +1,11 @@
+[package]
+name = "social-services-eligibility-engine"
+version = "0.1.0"
+edition = "2024"
+authors = ["Wylie Glover <rwylieg@gmail.com>"]
+description = "A library for calculating federal SNAP eligibility."
+license = "MIT"
+
+[dependencies]
+rust_decimal = "1.40.0"
+rust_decimal_macros = "1.40.0"
