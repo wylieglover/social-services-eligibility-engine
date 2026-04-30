@@ -78,6 +78,6 @@ fn test_large_household() {
         assert_eq!(contributing_members.len(), 7);
         assert_eq!(threshold, dec!(6463));
     } else {
-        panic!("Expected Eligible but got Ineligible");
+        panic!("Expected Ineligible but got Eligible");
     }
 }
